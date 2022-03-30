@@ -55,7 +55,10 @@ nav ul li:first-child{
 }
 
 #nav-accedi{
-    padding-left: 20%;}
+    margin-left: 20%;
+    color: #23272A;
+}
+
 
 /* jumbotron */
 #jumbotron .container{
@@ -88,6 +91,23 @@ p{
     margin: 0 auto;
     text-align: center;
 }
+
+/* bottoni */
+
+.button{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold ;
+}
+
+#jumbotext ul li{
+    padding-top: 30px;
+    display: inline-block;
+}
+
 
 /* sezioni */
 .row{
