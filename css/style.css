@@ -46,7 +46,7 @@ nav ul li a{
 }
 
 nav ul li:first-child{
-    padding-right: 20%;
+    padding-right: 15%;
 }
 
 
@@ -55,7 +55,7 @@ nav ul li:first-child{
 }
 
 #nav-accedi{
-    margin-left: 20%;
+    margin-left: 15%;
     color: #23272A;
 }
 
@@ -122,14 +122,14 @@ span{
 
 .colsx{
     float: left;
-    width: 40%;
+    width: 50%;
 
 }
 
 .coldx{
     float: left;
-    width: 50%;
-    padding-left: 10%;
+    width: 45%;
+    padding-left: 5%;
 }
 
 .sezione2{
