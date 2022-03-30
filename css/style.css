@@ -61,11 +61,33 @@ nav ul li:first-child{
 #jumbotron .container{
     width: 60%;
     height: 630px;
+    position: relative;
+
 }
 
 #imgjumbo{
     background-image: url(../img/jumbo.png);
-    background-size: cover;}
+    background-size: cover;
+}
+
+/* testo jumbotron */
+    
+#jumbotext{
+   padding-top: 120px;
+   text-align: center;
+   
+}
+h2{
+    font-size: 3.0vw;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.3vw;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
 
 /* sezioni */
 .row{
