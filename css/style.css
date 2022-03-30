@@ -7,3 +7,27 @@
 body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif 
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #3161e0;
+    height: 100vh;
+}
+
+header nav{
+    /* debug */
+    height: 100px;
+    background-color: aquamarine;
+}
+
+#jumbotron .container{
+    width: 60%;
+    /* debug */
+    background-color: pink;
+    height: 300px;
+}
+
