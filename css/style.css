@@ -22,22 +22,50 @@ body{
 /* header */
 
 header{
-    background-color: #3161e0;
+    background-color: #3161E0;
+    color: white;
 }
 
 header nav{
-    /* debug */
-    height: 100px;
-    background-color: aquamarine;
+    height: 80px;
+    padding-top: 25px;
 }
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo-discord{
+    vertical-align: middle;
+    display: inline;
+}
+
+nav ul li:first-child{
+    padding-right: 20%;
+}
+
+
+.li-navcentrali{
+    padding: 0 2%;   
+}
+
+#nav-accedi{
+    padding-left: 20%;}
 
 /* jumbotron */
 #jumbotron .container{
     width: 60%;
-    /* debug */
-    background-color: pink;
-    height: 300px;
+    height: 630px;
 }
+
+#imgjumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;}
 
 /* sezioni */
 .row{
