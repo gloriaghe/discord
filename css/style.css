@@ -85,7 +85,7 @@ h2{
     margin-bottom: 20px;
 }
 
-p{
+span{
     font-size: 1.3vw;
     width: 50vw;
     margin: 0 auto;
@@ -115,21 +115,21 @@ p{
     padding-top: 80px;
 }
 
+.pagina-contenuto{
+    height: 100vh;
+    padding-top: 50px;
+}
+
 .colsx{
     float: left;
     width: 40%;
-    /* debug */
-    background-color: red;
-    height: 150px ;
+
 }
 
 .coldx{
-    margin-left: 10%;
     float: left;
     width: 50%;
-    /* debug */
-    background-color: blue;
-    height: 150px ;
+    padding-left: 10%;
 }
 
 /* footer */
