@@ -156,7 +156,7 @@ span{
     transform: translate(-50%, -50%);
 }
 
-#greybutton{
+.greybutton{
     background-color: rgb(182, 215, 243);
     color: white;
 }
@@ -167,20 +167,58 @@ span{
 footer{
     background-color: #23272A;
     color: white;
-    /* debug */
-    height: 300px;
+    height: 600px;
 }
 
 .grigliafooter{
     width: calc(70% / 4);
     float: left;
     padding-left: 20px;
-    /* debug */
-    background-color: red;
-    height: 100px;
-    border: 3px solid black;
+    padding-bottom: 20px;
 }
 
 #griglialarga{
     width: 30%;
+}
+
+footer #grigliafooter a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 30px;
+}
+
+.titologriglia-footer{
+    color: rgb(75, 75, 250);
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+#bandiera{
+    width: 20px;
+    font-size: 10px;
+}
+
+#iconcine{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fab{
+    margin-right: 10px;
+}
+
+#grigliafooter{
+    border-bottom: 1px solid blue;
+}
+
+#footerbasso{
+    margin-top: 30px;
+    position: relative;
+}
+
+#footerbasso a{
+    position: absolute;
+    right: 0;
 }
