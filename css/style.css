@@ -139,8 +139,29 @@ span{
 #sezione-grossa{
     text-align: center; 
     width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
+    padding-bottom: 30px;
 }
+
+#stelle{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#text-stars{
+    font-weight: bold ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#greybutton{
+    background-color: rgb(182, 215, 243);
+    color: white;
+}
+
+
 /* footer */
 
 footer{
