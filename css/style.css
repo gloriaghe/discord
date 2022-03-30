@@ -120,6 +120,10 @@ span{
     padding-top: 50px;
 }
 
+.img-sezioni{
+width: 100%;
+}
+
 .colsx{
     float: left;
     width: 50%;
@@ -131,6 +135,15 @@ span{
     width: 45%;
     padding-left: 5%;
 }
+
+.sezione2 .colsx{
+    width: 45%;
+}
+
+.sezione2 .coldx{
+    width: 50%;
+}
+
 
 .sezione2{
     background-color: rgb(233, 233, 233)
