@@ -135,6 +135,12 @@ span{
 .sezione2{
     background-color: rgb(233, 233, 233)
 }
+
+#sezione-grossa{
+    text-align: center; 
+    width: 70%;
+    margin: 0 auto;
+}
 /* footer */
 
 footer{
